@@ -2,11 +2,18 @@
 <html>
 <head>
 	<title>НИР 2021</title>
+	<script>
+		function f()
+		{
+			alert("Hi!");
+		}
+	</script>
 </head>
 <body>
-	<h1>Регистрация / авторизация</h1>
-	<form>
+	<h1>Регистрация</h1>
+	<form action="javascript:f()">
 		<input type="text" name="user_name"><br>
+		<input type="email" name="user_email">
 		<input type="password" name="user_pas"><br>
 		<input type="submit" value="Зарегистрироваться">
 	</form>
